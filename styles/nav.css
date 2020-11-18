@@ -1,0 +1,120 @@
+body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .contenedor {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .encabezado {
+            background: #1e2b38;
+            color: #fff;
+            margin: 0px;
+            padding: 2%;
+            text-align: center;
+        }
+
+        .encabezado h1 {
+            margin: 0px;
+            padding: 0px; 
+        }
+
+        .cuerpo {
+            display: flex;
+            height: 560px;
+            width: 100%;
+            flex-wrap: wrap;
+            flex: inline;
+            /*align-items: stretch;*/
+        } 
+
+        .menu {
+            background: #49a3d6;
+            width: 25%;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            overflow: hidden;
+        }
+
+        .col-md-9 {
+            overflow: hidden;
+
+        }
+
+
+        .btnmenu {
+            text-align: center;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .btnmenu a {
+            text-decoration: none;
+            color: #fff;
+            
+        }
+
+        .btn {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 0px;
+            width: 100%;
+            border-radius: 0px;
+            font-size: 18px;
+            background: rgba(15, 5, 65, .2);
+        }
+
+        .btn:hover {
+            background: #1e2b38;
+            color: #fff;
+        }
+
+        .contenido {
+            text-align: center;
+            font-size: 25px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .var {
+            width: 50px;
+            height: 40px;
+            margin: 0px 0px 0px 0px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .formbtn {
+            background: rgba(30, 43, 56, .9);
+            color: #fff;
+            border:none;
+            width: 110px;
+            height: 40px;
+            font-size: 20px;
+        }
+
+        .formbtn:hover {
+            background: #49a3d6;
+        }
+
+        .encabezadomenu {
+            margin-bottom: 20px;
+        }
+
+        .subtitulo {
+            background: #eee;
+            margin: 0px;
+            padding: 20px
+        }
+
+        .cuerpo h3 {
+            text-align: left;
+            margin-left: 150px;
+        }
+
+        .cuerpo hr {
+            border: solid 1px rgba(0, 0, 0, .5);
+        }

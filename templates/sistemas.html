@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Matemáticas y Computación</title>
+    <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="shorcut icon" type="img/x-icon" href="../img/favicon.ico">
+
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="encabezado col-md-12">
+            <h1>Matemáticas y Computación</h1>
+        </div>
+        
+        <div class="cuerpo">
+            <div class="menu col-md-3">
+                <div class="encabezadomenu col-md-12">
+                    <h2>Menú</h2>
+                </div>
+                
+                <div class="btnmenu col-md-12">
+                    <a href="lineales.html">
+                        <div class="btn">
+                            Ecuaciones Lineales
+                        </div>
+                    </a>
+
+                   
+
+                    
+                    <a href="sistemas.html">
+                        <div class="btn">
+                            Sistemas Ecuaciones
+                        </div>
+                    </a>
+
+                    <a href="aritmeticas.html">
+                        <div class="btn">
+                            Progreciones Aritméticas
+                        </div>
+                    </a>
+
+                    <a href="geometricas.html">
+                        <div class="btn">
+                            Progreciones Geometricas
+                        </div>
+                    </a>
+
+                    <a href="permutacion.html">
+                        <div class="btn">
+                            Permutación
+                        </div>
+                    </a>
+
+                    <a href="variacion.html">
+                        <div class="btn">
+                            Variación
+                        </div>
+                    </a>
+
+                    <a href="combinacion.html">
+                        <div class="btn">
+                            Combinación
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="contenido col-md-9">
+                <h2 class="subtitulo">Sistema de Ecuaciones</h2>
+
+                <br />
+                <br />
+                <br />
+
+                <form name="lineal">
+                    <input class="var" type="text" id="a" /> x +
+                    ( <input class="var" type="text" id="b" /> y) = 
+                    <input class="var" type="text" id="c" />
+                    <br />
+                    <input class="var" type="text" id="a2" /> x +
+                    ( <input class="var" type="text" id="b2" /> y) = 
+                    <input class="var" type="text" id="c2" />
+                    <br />
+                    <br />
+                    <input class="formbtn" onclick="resolver()" type="button" value="Resolver" />
+                </form>
+
+                <script src="../script/sistemas.js"></script>
+
+                <br>
+
+                <p id="operacion"> </p>
+                
+                <p id="resultado"> </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
